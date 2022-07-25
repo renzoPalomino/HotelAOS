@@ -1,0 +1,144 @@
+/*
+colorPrimary: rgb(63,81,181);
+colorSecundary: rgb(76,175,80);
+*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background: #f2f2f2;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.background-1{
+    height: 100vh;
+    background-image: linear-gradient(334deg, rgba(255,255,255,1) 50%, rgba(0,255,10,0) 50%),
+        linear-gradient(180deg, rgba(63,81,181,1) 0%, rgba(76,175,80,1) 100%);
+}
+
+.background-2{
+    height: 100vh;
+    background-image: linear-gradient(334deg, rgba(0,255,10,0) 50%, rgba(255,255,255,1) 50%),
+        linear-gradient(0deg, rgba(63,81,181,1) 0%, rgba(76,175,80,1) 100%);
+}
+
+.bg-navbarR{
+    backdrop-filter: blur(20px);
+    background: rgba(48,142,172, 0.6);
+}
+
+.bg-buscar{
+    position: relative;
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255, 0.5);
+    top: -5rem;
+    width: 64rem;
+}
+
+.border-R{
+    border-color: #308eac !important;
+}
+
+.card-columns-1{
+    column-count: 2;
+}
+
+.color-primary{
+    background: rgb(63,81,181);
+}
+
+.display-5{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.text-color1{
+    color: #37b2c9;
+}
+
+.img-height{
+    height: 50%;
+}
+
+.chart-pie {
+  position: relative;
+  height: 15rem;
+  width: 100%;
+}
+
+.mt-9{
+    margin-top: 7rem;
+}
+.rounded-R{
+    border-radius: 0.9rem;
+}
+
+.svgContent{
+    font-size: 8rem;
+}
+
+.svg{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.svg::before, .Ser_icon{
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255, 0.2);
+}
+
+.serv1::after{
+    position: relative;
+    content: '\f1eb';
+    font-size: 6rem;
+    color: #37b2c9;
+}
+
+.serv2::after{
+    position: relative;
+    content: '\f5c4';
+    font-size: 6rem;
+    color: #37b2c9;
+}
+
+.serv3::after{
+    position: relative;
+    content: '\f2e7';
+    font-size: 6rem;
+    color: #37b2c9;
+}
+
+.serv4::after{
+    position: relative;
+    content: '\f79f';
+    font-size: 6rem;
+    color: #37b2c9;
+}
+
+.serv5::after{
+    position: relative;
+    content: '\f44b';
+    font-size: 6rem;
+    color: #37b2c9;
+}
+
+.serv6::after{
+    position: relative;
+    content: '\f0f4';
+    font-size: 6rem;
+    color: #37b2c9;
+}
+
+.jumbotron-R{
+    height: 500px;
+    background: linear-gradient(108deg, rgba(55,178,201,1) 25%, rgba(255,255,255,0) 74%), url("../img/jumbotron.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .chart-pie {
+    height: calc(20rem - 43px) !important;
+  }
+}
+
